@@ -11,7 +11,7 @@ var
 
 	// Map over the $ in case of overwrite
 	_$ = window.$;
-
+// NOTE 释放 默认的  $ 符号
 jQuery.noConflict = function( deep ) {
 	if ( window.$ === jQuery ) {
 		window.$ = _$;

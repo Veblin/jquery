@@ -1416,7 +1416,7 @@ Expr = Sizzle.selectors = {
 			return fn;
 		}
 	},
-
+	//伪类
 	pseudos: {
 		// Potentially complex pseudos
 		"not": markFunction(function( selector ) {
